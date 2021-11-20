@@ -36,7 +36,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <div>
       <Nav updateCurrentPage={updateCurrentPage} />
-      <Box mt={15}>
+      <Box my={12}>
       {renderCorrectPage()}
       </Box>
       <Footer />

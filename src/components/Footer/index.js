@@ -17,6 +17,7 @@ const Footer = () => {
       zIndex: 10
     }}>
       <Box
+      
         component="footer"
         sx={{
           backgroundColor: (theme) =>
@@ -36,13 +37,13 @@ const Footer = () => {
             <Grid item xs={4}>
               <Typography variant="body2" color="primary" align="center">
                 <GitHubIcon></GitHubIcon>
-                <Link href="github.com/hroddy" underline="none">Github</Link>
+                <Link href="github.com/hroddy" underline="hover">Github</Link>
               </Typography>
             </Grid>
             <Grid item xs={4}>
               <Typography variant="body2" color="primary" align="right">
                 <LinkedInIcon></LinkedInIcon>
-                <Link href="https://www.linkedin.com/in/hannah-roddy-4a43ab214/" underline="none">
+                <Link href="https://www.linkedin.com/in/hannah-roddy-4a43ab214/" underline="hover">
                   LinkedIn
                 </Link>
               </Typography>
