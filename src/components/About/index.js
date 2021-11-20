@@ -22,7 +22,6 @@ function About() {
         <Grid
           container
           spacing={5}
-          container
           direction="row"
           justifyContent="space-between"
           alignItems="center"
@@ -36,8 +35,8 @@ function About() {
           </Grid>
           <Grid item sm={6}>
             <Typography variant="body1">
-              Hello! I'm Hannah Roddy, a full stack web developer enrolled in
-              UC Berkeley's Extension Coding Bootcamp. I live in Livermore,
+              Hello! I'm Hannah Roddy, a full stack web developer enrolled in UC
+              Berkeley's Extension Coding Bootcamp. I live in Livermore,
               California with my two dogs, Mako and Sia.
             </Typography>
           </Grid>

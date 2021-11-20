@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
@@ -29,7 +28,6 @@ const Projects = () => {
       <Grid
         container
         spacing={10}
-        container
         direction="row"
         justifyContent="space-between"
         alignItems="center"

@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Container from "@mui/material/Container";
-const { validateEmail, validateString } = require("../../utils/helpers");
+const { validateEmail } = require("../../utils/helpers");
 
 const Contact = () => {
   const [email, setUpdateEmail] = useState("");
@@ -61,7 +61,7 @@ const Contact = () => {
       <Grid
         container
         spacing={1}
-        container
+        
         direction="column"
         justifyContent="center"
         alignItems="center"
