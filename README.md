@@ -1,6 +1,6 @@
 # React Portfolio
 ## Description
-### A mobile responsive portfolio website built with react. About section with bio, Contact page with message inputs, Projects page with screenshots and links to deployed projects, and a Resume page with a viewable and downloadable resume.pdf
+### A mobile responsive portfolio website built with React. About section with bio, Contact page with message inputs, Projects page with screenshots and links to deployed projects, and a Resume page with a viewable and downloadable resume.pdf
 
 ----
 ## Table of Contents
@@ -12,6 +12,8 @@
 
 ----
 ## Deployed
+
+[View the site in action here](https://hroddy.github.io/react-portfolio/)
 
 ----
 ## Technologies
